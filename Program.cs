@@ -25,8 +25,7 @@ int TotalVendido = 0;
 
 Console.WriteLine("Bienvenido al sistema de registro de ventas");
 
-Console.WriteLine("==========Menú==========");
-Console.WriteLine("1. Registrar productos\n 2.");
+Console.WriteLine("==========Menú==========\n 1. Registrar productos\n 2. Mostrar productos\n 3. Calcular total vendido\n 4. Mostrar producto más vendido\n 5. Mostrar promedio de ventas\n 6. Salir");
 /*Integrante 2 — Entrada de datos
 Programar el ingreso de información.
 Validar datos.*/
