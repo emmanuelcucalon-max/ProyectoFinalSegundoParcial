@@ -17,6 +17,16 @@ Cada integrante tendrá un rol específico:*/
 Crear los arreglos.
 Definir variables y arreglos.*/
 
+string[] NombreProducto = new string[10];
+double[] PrecioProducto = new double[10];
+int[] CantidadProducto = new int[10];
+int[,] registroVentas = new int [10, 3];
+int TotalVendido = 0;
+
+Console.WriteLine("Bienvenido al sistema de registro de ventas");
+
+Console.WriteLine("==========Menú==========");
+Console.WriteLine("1. Registrar productos\n 2.");
 /*Integrante 2 — Entrada de datos
 Programar el ingreso de información.
 Validar datos.*/
