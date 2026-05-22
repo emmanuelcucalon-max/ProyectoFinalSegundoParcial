@@ -17,16 +17,6 @@ Cada integrante tendrá un rol específico:*/
 Crear los arreglos.
 Definir variables y arreglos.*/
 
-string[] NombreProducto = new string[10];
-double[] PrecioProducto = new double[10];
-int[] CantidadProducto = new int[10];
-int[,] registroVentas = new int [10, 3];
-int TotalVendido = 0;
-
-Console.WriteLine("Bienvenido al sistema de registro de ventas");
-
-Console.WriteLine("==========Menú==========");
-Console.WriteLine("1. Registrar productos\n 2.");
 /*Integrante 2 — Entrada de datos
 Programar el ingreso de información.
 Validar datos.*/
@@ -37,4 +27,8 @@ Realizar cálculos y estadísticas.*/
 /*Integrante 4 — Salida y pruebas
 Mostrar reportes.
 Probar el sistema y corregir errores.*/
-
+Console.WriteLine($"EL total de productos vendidos es de: {}");
+Console.WriteLine($"El total de ventas es: {} ");
+Console.WriteLine($"El producto que mas se ha vendido es: {}");
+Console.WriteLine($"El producto que MENOS se ha vendido es: {}");
+Console.WriteLine($"El promedio de las ventas registradas en la semana es de: {}");
