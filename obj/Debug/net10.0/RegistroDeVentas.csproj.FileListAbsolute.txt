@@ -1,0 +1,15 @@
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.AssemblyInfoInputs.cache
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.AssemblyInfo.cs
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.csproj.CoreCompileInputs.cache
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.sourcelink.json
+C:\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.exe
+C:\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.deps.json
+C:\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.runtimeconfig.json
+C:\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.dll
+C:\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.pdb
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.dll
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\refint\RegistroDeVentas.dll
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.pdb
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.genruntimeconfig.cache
+C:\ProyectoFinalSegundoParcial\obj\Debug\net10.0\ref\RegistroDeVentas.dll
