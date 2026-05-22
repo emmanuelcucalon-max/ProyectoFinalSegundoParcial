@@ -27,58 +27,41 @@ Realizar cálculos y estadísticas.*/
 /*Integrante 4 — Salida y pruebas
 Mostrar reportes.
 Probar el sistema y corregir errores.*/
-void CalcularTotal()
+double total = 0;
+
+for (int i = 0; i < contador; i++)
 {
-    double total = 0;
-
-    for (int i = 0; i < contador; i++)
-    {
-        total = total + (PrecioProducto[i] * CantidadProducto[i]);
-    }
-
-    System.Console.WriteLine("Total vendido: " + total);
+    total += PrecioProducto[i] * CantidadProducto[i];
 }
 
-void ProductoMasVendido()
+System.Console.WriteLine("Total vendido: " + total);
+
+
+
+int mayor = CantidadProducto[0];
+int posicion = 0;
+
+for (int i = 1; i < contador; i++)
 {
-    if (contador == 0)
+    if (CantidadProducto[i] > mayor)
     {
-        System.Console.WriteLine("No hay productos registrados.");
-        return;
+        mayor = CantidadProducto[i];
+        posicion = i;
     }
-
-    int mayor = CantidadProducto[0];
-    int posicion = 0;
-
-    for (int i = 1; i < contador; i++)
-    {
-        if (CantidadProducto[i] > mayor)
-        {
-            mayor = CantidadProducto[i];
-            posicion = i;
-        }
-    }
-
-    System.Console.WriteLine("Producto mas vendido: " + NombreProducto[posicion]);
-    System.Console.WriteLine("Cantidad vendida: " + mayor);
 }
 
-void PromedioVentas()
+System.Console.WriteLine("Producto mas vendido: " + NombreProducto[posicion]);
+System.Console.WriteLine("Cantidad vendida: " + mayor);
+
+
+
+double suma = 0;
+
+for (int i = 0; i < contador; i++)
 {
-    if (contador == 0)
-    {
-        System.Console.WriteLine("No hay productos registrados.");
-        return;
-    }
-
-    double total = 0;
-
-    for (int i = 0; i < contador; i++)
-    {
-        total = total + (PrecioProducto[i] * CantidadProducto[i]);
-    }
-
-    double promedio = total / contador;
-
-    System.Console.WriteLine("Promedio de ventas: " + promedio);
+    suma = suma + (PrecioProducto[i] * CantidadProducto[i]);
 }
+
+double promedio = suma / contador;
+
+System.Console.WriteLine("Promedio de ventas: " + promedio);
