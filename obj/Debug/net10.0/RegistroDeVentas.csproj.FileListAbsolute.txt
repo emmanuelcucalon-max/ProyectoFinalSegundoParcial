@@ -1,0 +1,15 @@
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.AssemblyInfoInputs.cache
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.AssemblyInfo.cs
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.csproj.CoreCompileInputs.cache
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.sourcelink.json
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.exe
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.deps.json
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.runtimeconfig.json
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.dll
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\bin\Debug\net10.0\RegistroDeVentas.pdb
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.dll
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\refint\RegistroDeVentas.dll
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.pdb
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\RegistroDeVentas.genruntimeconfig.cache
+C:\Users\luisc\Desktop\pruebaa\ProyectoFinalSegundoParcial\obj\Debug\net10.0\ref\RegistroDeVentas.dll

@@ -27,4 +27,58 @@ Realizar cálculos y estadísticas.*/
 /*Integrante 4 — Salida y pruebas
 Mostrar reportes.
 Probar el sistema y corregir errores.*/
+void CalcularTotal()
+{
+    double total = 0;
 
+    for (int i = 0; i < contador; i++)
+    {
+        total = total + (PrecioProducto[i] * CantidadProducto[i]);
+    }
+
+    System.Console.WriteLine("Total vendido: " + total);
+}
+
+void ProductoMasVendido()
+{
+    if (contador == 0)
+    {
+        System.Console.WriteLine("No hay productos registrados.");
+        return;
+    }
+
+    int mayor = CantidadProducto[0];
+    int posicion = 0;
+
+    for (int i = 1; i < contador; i++)
+    {
+        if (CantidadProducto[i] > mayor)
+        {
+            mayor = CantidadProducto[i];
+            posicion = i;
+        }
+    }
+
+    System.Console.WriteLine("Producto mas vendido: " + NombreProducto[posicion]);
+    System.Console.WriteLine("Cantidad vendida: " + mayor);
+}
+
+void PromedioVentas()
+{
+    if (contador == 0)
+    {
+        System.Console.WriteLine("No hay productos registrados.");
+        return;
+    }
+
+    double total = 0;
+
+    for (int i = 0; i < contador; i++)
+    {
+        total = total + (PrecioProducto[i] * CantidadProducto[i]);
+    }
+
+    double promedio = total / contador;
+
+    System.Console.WriteLine("Promedio de ventas: " + promedio);
+}
